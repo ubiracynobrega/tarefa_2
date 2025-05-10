@@ -10,4 +10,7 @@ git commit -am "terceiro commit no arquivo texto"
 git merge feature-1
 git commit -am "resolve conflito texto"
 git branch add-comandos
+git push origin-atividade main
+git push origin-atividade add-comandos
+
 
