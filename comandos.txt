@@ -1,0 +1,16 @@
+nome: Ubiracy Dantas da Nóbrega
+git init
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+git checkout feature-1
+git commit -am "primeiro commit no arquivo texto"
+git checkout-b feature-1
+git commit -am "segundo commit no arquivo texto"
+git switch main
+git commit -am "terceiro commit no arquivo texto"
+git merge feature-1
+git commit -am "resolve conflito texto"
+git branch add-comandos
+git push origin-atividade main
+git push origin-atividade add-comandos
+
+
